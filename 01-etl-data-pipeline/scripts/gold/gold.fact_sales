@@ -1,0 +1,26 @@
+/*=================================================================
+gold.fact_sales
+=================================================================*/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE VIEW [gold].[fact_sales] AS
+    SELECT
+        s.sale_id,
+        c.customer_key,
+        p.product_key,
+        s.order_date,
+        s.quantity,
+        s.unit_price AS sale_price,
+        s.sales_amount AS sales_revenue,
+        s.sales_channel,
+        s.store_name,
+        s.payment_method
+    FROM silver.chat_raw_sales AS s
+    LEFT JOIN gold.dim_customers AS c
+    ON s.customer_id = c.customer_id
+    LEFT JOIN gold.dim_products AS p
+    ON s.product_id = p.product_id;
+GO

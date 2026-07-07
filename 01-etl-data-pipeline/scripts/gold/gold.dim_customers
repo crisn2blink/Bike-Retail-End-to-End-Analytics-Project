@@ -1,0 +1,21 @@
+/*=================================================================
+gold.dim_customers
+=================================================================*/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE VIEW [gold].[dim_customers] AS
+    SELECT
+        ROW_NUMBER() OVER(ORDER BY customer_id) AS customer_key,
+        customer_id,
+        first_name,
+        last_name,
+        email,
+        phone,
+        state,
+        city,
+        signup_date
+    FROM silver.chat_raw_customers;
+GO

@@ -1,0 +1,22 @@
+/*=================================================================
+gold.dim_products
+=================================================================*/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE VIEW [gold].[dim_products] AS
+    SELECT
+        ROW_NUMBER() OVER(ORDER BY product_id) AS product_key,
+        product_id,
+        brand,
+        category,
+        model_name,
+        color,
+        material,
+        list_price AS selling_price,
+        standard_cost AS cost,
+        is_active
+    FROM silver.chat_raw_products;
+GO
