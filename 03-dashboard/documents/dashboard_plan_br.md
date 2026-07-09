@@ -1,4 +1,4 @@
-# 5\. Dashboard Plan: Bike Retail Project 2
+# Dashboard Plan: Bike Retail Project 2
 
 ## Dashboard Purpose
 
