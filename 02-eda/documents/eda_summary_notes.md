@@ -1,4 +1,4 @@
-# 4\. EDA Notes Summary: Bike Retail Project 2
+# EDA Notes Summary: Bike Retail Project 2
 
 _The first EDA analysis 5/5/2026_
 
