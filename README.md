@@ -121,6 +121,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ```
 ├── 01-etl-data-pipeline/
 │   ├── datasets/
+│   ├── documents/
 │   ├── scripts/
 │   ├── tests/
 │   ├── README.md
