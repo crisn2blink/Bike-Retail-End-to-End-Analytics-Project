@@ -79,15 +79,11 @@ The purpose of our dashboard is to give an overall snapshot of operations while 
 3. Who is the audience:
     - Managers
 
-_<br>
-_
-
-_
+<br>
 
 * * *
 
 <br>
-_
 
 ## Dashboard Planning
 
@@ -162,5 +158,3 @@ We can start with some high-level metrics
 - Customer type from SQL script data\_segmentation
 
 <br>
-
-[[Notes for the Dashboard]]
