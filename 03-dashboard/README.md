@@ -52,12 +52,12 @@ Bike-Retail-End-to-End-Analytics-Project/
 03-dashboard/                            # Power BI dashboard development and final reporting layer
 │
 ├── dashboard/                           # Power BI dashboard file
-│   └── adventure_works_dashboard.pbix    # Final Power BI dashboard file for the AdventureWorks BI project
+│   └── bike_retail_dashboard.pbix    # Final Power BI dashboard file for the AdventureWorks BI project
 │
 ├── documents/                           # Dashboard planning, explanation, mockup, and reflection documents
 │   ├── dashboard_explanation.docx        # Written explanation of dashboard design, purpose, and insights
 │   ├── dashboard_mockup.pptx             # Dashboard mockup and visual planning presentation
-│   ├── dashboard_plan_aw.md              # Dashboard blueprint, layout plan, KPIs, and design notes
+│   ├── dashboard_plan_br.md              # Dashboard blueprint, layout plan, KPIs, and design notes
 │   └── lessons_learned.docx              # Reflection on project decisions, challenges, and lessons learned
 │
 └── README.md                            # Part III overview, dashboard requirements, skills demonstrated, and repository structure
