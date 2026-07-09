@@ -201,7 +201,7 @@ Bike-Retail-End-to-End-Analytics-Project/
 02-eda/                                 # Exploratory Data Analysis using the gold layer business views
 │
 ├── documents/                          # Supporting EDA documentation, notes, and findings
-│   └── eda_summary_notes.md            # Summary notes and key findings from the exploratory analysis
+│   └── eda_summary_notes.pdf           # Summary notes and key findings from the exploratory analysis
 │
 ├── queries/                            # SQL scripts used for exploratory data analysis
 │   ├── date_range_exploration.sql      # Identifies date boundaries and available order date ranges
