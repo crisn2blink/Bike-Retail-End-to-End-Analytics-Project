@@ -56,9 +56,7 @@ Bike-Retail-End-to-End-Analytics-Project/
 │
 ├── documents/                           # Dashboard planning, explanation, mockup, and reflection documents
 │   ├── dashboard_explanation.docx        # Written explanation of dashboard design, purpose, and insights
-│   ├── dashboard_mockup.pptx             # Dashboard mockup and visual planning presentation
-│   ├── dashboard_plan_br.md              # Dashboard blueprint, layout plan, KPIs, and design notes
-│   └── lessons_learned.docx              # Reflection on project decisions, challenges, and lessons learned
+│   └── dashboard_plan_br.md              # Dashboard blueprint, layout plan, KPIs, and design notes
 │
 └── README.md                            # Part III overview, dashboard requirements, skills demonstrated, and repository structure
 ```
