@@ -1,4 +1,4 @@
-# 6\. Dashboard Visuals Explanations
+# Dashboard Visuals Explanations
 
 Since this data is not actual data generated from an existing company but rather data created by ChatGPT, some of the pricing data is not logical. For example:
 
