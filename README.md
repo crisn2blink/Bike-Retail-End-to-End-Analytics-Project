@@ -139,6 +139,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 └── docs/
     ├── data_catalog.md                   # Catalog of datasets, including field descriptions and metadata
     ├── data_flow_diagram.drawio          # Draw.io file that shows the flow of data within the pipeline
+    ├── final_business_insights.md        # Quick summary of important business insights
     ├── integration_model_diagram.drawio  # Draw.io file shows the project's star schema model
     ├── naming_conventions.md             # Consistent naming guidelines for tables, columns, and files
     ├── project_diagram.drawio            # Draw.io file shows the project's architecture
