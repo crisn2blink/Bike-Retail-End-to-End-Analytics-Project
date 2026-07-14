@@ -111,7 +111,7 @@ If we are ONLY wanting to flag:
 
 <br>
 
-LMAO!!! BUT if we simply insert into the silver table first, you can just do simple SELECT queries to test the silver table; making all of this pointless.
+BUT if we simply insert into the silver table first, you can just do simple SELECT queries to test the silver table; making all of this pointless.
 
 9. **INSERTING INTO WHERE THE QUERY BEGINS WITH A CTE**
 
@@ -131,8 +131,6 @@ LMAO!!! BUT if we simply insert into the silver table first, you can just do sim
 12. Set UPPER and TRIM for column standardization when appropriate.
 
 <br>
-
-13. [[Restoring a Database]]
 
 * * *
 
